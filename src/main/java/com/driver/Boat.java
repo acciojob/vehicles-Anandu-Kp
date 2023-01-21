@@ -5,6 +5,8 @@ public class Boat implements WaterVehicle {
     int capacity;
 
     public Boat() {
+        this.name=getVehicleName();
+        this.capacity=getVehicleCapacity();
     }
 
     public String getVehicleName() {
